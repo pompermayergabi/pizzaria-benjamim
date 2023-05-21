@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+   
+}
+
+h1 {
+background-color: rgb(225, 173, 155);
+margin: 0 auto; 
+padding: 45px;
+text-align: center;
+box-sizing:content-box ;
+font-family: "Fasthand";
+font-size: 100px;
+}
+
+table, th, td{
+background-color: rgb(255, 255, 255);
+border: 1px solid black;
+border-collapse: collapse;
+text-align: center;
+}
+
+table{
+    width: 100%;
+}
+body{
+    font-size: 2rem;
+}
+
+li{
+    display: inline-block;
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box ;
+}
+
+a{ 
+
+    text-align: center;
+}
+#navegacao{
+    display: flex;
+    font-family: "Merienda";
+    }
+
+#navegacao li{
+    margin: 10px;
+    padding: 10px;
+}
+
+#navegacao li:not(:first-of-type) {
+    border-left: 1px solid black;
+}
+
+#navegacao a {
+    color: black;
+    text-decoration: none;
+    position: relative;
+    
+}
+
+#navegacao a:hover::after {
+    width: 100%;
+}
+
+#navegacao a::after {
+    transition: 0.4s;
+    content: "";
+    height: 1px;
+    background-color: black;
+    width: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+h2{
+    display: flex;
+    justify-content:baseline;
+    font-family: "Merienda";
+}
+
+  .absolute{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    padding-left: 2015px;
+  }
+
+section{
+    display:flex
+    
+}
+ 
+section div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+  h3{
+    font-family: "Merienda";
+  }
+
+  footer{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    font-family: "Merienda";
+  }

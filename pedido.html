@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="pedido.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+        <title>Pizzaria Benjamin</title>
+       </head>
+
+<body>
+
+    <h2> Faça aqui o seu pedido</h2>
+<section >
+    <div class="flex-container">
+        <form href="pedido" action="/infos" method="POST">
+            <div id="div1">
+                <a id ="pedido"> </a>
+                 <label for="nome">Nome</label>
+                    <input id="nome" type="text"  />
+              
+                     <br>
+                      <label for="telefone" >Telefone</label>
+                    <input id="telefone" type="telefone" />
+                     
+                     <br> 
+                      <label  for="endereço">Endereço</label>
+                    <input p id="endereço" type="endereço"/>
+              
+                    <br>     
+                   <label>Comentário
+                      <textarea placeholder="Digite aqui o seu comentário"></textarea>
+                   </label>
+            </div>
+           
+                
+            <div >
+                <h3>Sabor</h3>
+                <label>Calabresa
+                <input type="checkbox" name="calabresa" />
+                </label>
+                <label>Pepperoni
+                <input type="checkbox" name="pepperoni" />
+                </label>
+                <label>Alho e Óleo
+                <input type="checkbox" name="sabor" value="alhoeoleo" />
+                </label>  
+            </div> 
+                   
+                 
+                 <br>
+                 <br>
+                 <div  ><h3>Deseja refrigerante</h3>
+                    <label>Sim
+                        <input type="radio" name="refrigerante" />
+                    </label>
+                    <label>Não
+                        <input type="radio" name="refrigerante" />
+                    </label>
+                        <br> <input  type="submit"/>
+                
+                <div>                
+         </form>
+    </div>
+</section>
+        
+
+</body>
+<br>
+<footer>
+    <a> Pizzaria do Benjamin<a>Ⓡ</a></a>
+</footer>
+</html>

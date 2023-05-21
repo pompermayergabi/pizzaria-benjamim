@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./pizzaria.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet"/>
+    <title>Pizzaria Benjamin</title>
+</head>
+<body>
+    <ul id="navegacao">
+        <li><a href="#home">Home</a> </li>
+        <li><a href="#sobre">Sobre nós</a> </li>
+        <li><a href="#cardapio">Cardápio</a> </li>
+        <li><a href="#contato">Contato</a> </li>
+        <li><a href="#endereco">Endereço</a> </li>
+        <li><a href="#horario">Horário de Funcionamento</a> </li>
+        <li><a href="./pedido.html" target="_blank">Pedido</a> </li>
+    </ul>
+
+    <div class="absolute">
+        <a href="https://www.whatsapp.com/">
+            <img style="width: 100px; height: 100px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVqrKahtjwqym1MJYWTM-ghf4gi2ODR2e69A&usqp=CAU"/>
+        </a>
+    </div>
+    <br>
+
+    <h1>Pizzaria do Benjamin</h1>
+    <br>
+
+    <h2>Sobre nós</h2>
+    <p>Somos uma pizzaria familiar, composta por um jovem casal. O nome Benjamin veio de inspiração pelo nosso gatinho que tem a mania de usar as patinhas para afofar os cobertores que usamos para dormir. Chamamos de "amassar pãozinho" que evoluiu para "amassar pizza" e daí surgiu o nome da nossa pizzaria.</p>
+    <br>
+    
+    <div id="cardapio"> 
+        <h2>Cardápio</h2>
+    </div>
+    <br>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">Imagem</th>
+                <th rowspan="2">Nome</th>
+                <th rowspan="2">Descrição</th>
+                <th colspan="4">Preço</th>
+            </tr>
+            <tr>
+                <th>P</th>
+                <th>M</th>
+                <th>G</th>
+                <th>F</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img style="width: 100px; height: 100px;" src="https://soubh.uai.com.br/uploads/post/image/9034/main_150705_pizza_2.jpg" alt="pizza de peperonni"/></td>
+                <td>Peperonni</td>
+                <td>Peperonni, oregano, mussarela, molho tradicional</td>
+                <td>R$ 59.00</td>
+                <td>R$ 69.00</td>
+                <td>R$ 79.00</td>
+                <td>R$ 79.00</td>
+            </tr>
+            <tr>
+                <td><img style="width: 100px; height: 100px;" src="https://receitinhas.com.br/wp-content/uploads/2017/08/pizza-de-calabresa-e-queijo.jpg"/></td>
+                <td>Calabresa</td>
+                <td>Calabresa, oregano, mussarela, molho tradicional</td>
+                <td>R$ 55.00</td>
+                <td>R$ 65.00</td>
+                <td>R$ 75.00</td>
+                <td>R$ 85.00</td>
+            </tr>
+            <tr>
+                <td><img style="width: 100px; height: 100px;" src="https://lh6.googleusercontent.com/CH-EQt9dOihoisgkTdIAwLiyVttaYtEgrNWYvLt6MXZi5ox_1xZm2fd6eFeRHlksWFd0t1IHislRAQGvriwjwAouqeYE1cyvw1DtOMwGUNv0jK41e9IxyeqkrQHtwskvWA"/></td>
+                <td>Alho e Óleo</td>
+                <td>Alho frito, mussarela, molho tradicional</td>
+                <td>R$ 40.00</td>
+                <td>R$ 50.00</td>
+                <td>R$ 60.00</td>
+                <td>R$ 70.00</td>
+            </tr>
+            <tr>
+                <th colspan="7">Bebida</th>
+            </tr>
+            <tr>
+                <td><img style="width: 100px; height: 100px;" src="https://us-southeast-1.linodeobjects.com/storage/damiancenterlar/media/uploads/produto/refri_coca_cola_350ml_7691073b-3fb0-4c2d-9c91-1e6d1ac5fc4a.jpg" alt="refrigerante de cocacola"/></td>
+                <td colspan="2">Coca-cola lata</td>
+                <td colspan="4">R$ 7</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+
+    <section> <!-- Display flex -->
+        <div id="contato">
+           <h2>Contato</h2>
+           <p> Telefone <a href="tel:+5571987654321">+55 71 98765-4321</a> </p>
+           <br>
+        </div>
+    
+       <div id="endereco">
+            <h2>Endereço</h2>
+            <p> Rua S, nº 777 </p>
+            <p>Lira do Sudeste</p>
+            <br>
+        </div>
+       
+       <div id="horario">
+            <h2>Horário de Funcionamento</h2>
+            <p> Segunda-feira: 14h às 20h </p>
+            <p>Terça-feira à domingo : 12h às 23h </p>    
+        </div>
+    </section>
+   <br> 
+   <br>
+   <footer>
+       <a> Pizzaria do Benjamin<a>Ⓡ</a></a>
+   </footer>
+</body>
+</html>
